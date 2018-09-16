@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>DNT_DepLibTestApp4</RootNamespace>
+  </PropertyGroup>
+
+  <Import Project="..\DNT-DepLib4\DNT-DepLib4.projitems" Label="Shared" />
+
+  <Import Project="..\submodules\DNT-DepLib1\DNT-DepLib1\DNT-DepLib1.projitems" Label="Shared" />
+
+</Project>
